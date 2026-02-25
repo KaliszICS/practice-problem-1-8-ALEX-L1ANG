@@ -5,12 +5,13 @@
  * Date Last Edited: Feb 25, 2026
  */
 
+import java.util.Scanner; 
 
 class PracticeProblem {
 
 	static Scanner s = new Scanner();
   	public static void main(String[] args) {
-		
+			
 		q1();
 		q2();
 		q3();
@@ -20,11 +21,13 @@ class PracticeProblem {
 		// From input, recieve two integers from the user and add them together.  Output the result.
 	Scanner s = new Scanner(System.in);
 		System.out.println("Input a number: ");
-		int num1 = s.nextInt;
+		int num1 = s.nextInt();
+		s.nextLine();
 		System.out.println("Input a number: ");
-		int num2 = s.nextInt;
+		int num2 = s.nextInt();
+		s.nextLine();
 
-		System.out.println(num + num2);
+		System.out.println(num1 + num2);
   	}
 
 	public static void q2() {
@@ -37,7 +40,7 @@ class PracticeProblem {
 		int num2 = s.nextInt();
 		s.nextLine();
 		
-		system.out.println(num1/num2);
+		System.out.println(num1/num2);
 	}
 
 	public static void q3() {
